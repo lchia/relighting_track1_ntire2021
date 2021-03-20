@@ -8,19 +8,18 @@ pip install -r requirments.txt
 
 ## run test
 
-- [1] Put the test data of track1 into folder
-`./relighting2021/data/track1`
-*already there*
+- [1] Download 'data.zip' from Google Drive:
+`https://drive.google.com/file/d/1oFCsGBcs-a3yIAr6BiA2mcXTTl2D5xAB/view?usp=sharing`
 
-- [2] Run test script
+- [2] Unzip 'data.zip' and put 'data' folder to the parent directory, like `../data`, because we made soft links of 'ckpts', 'data', 'results', 'TMP' from '../data'.
+
+- [3] Run test script
 ```python
-cd ./relighting2021/code
+cd ./code
 sh run_test.sh
 ```
 
-- [3] Fine results in folder
-`./relighting2021/results`
-
+- *TEST* results lies in folder: `../results`
 
 
 ## structure

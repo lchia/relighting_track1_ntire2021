@@ -35,7 +35,6 @@ python main.py \
     --with_in \
     --save_dense \
 
-"""
 CUDA_VISIBLE_DEVICES=0 \
 python main.py \
     --test_only \
@@ -165,5 +164,4 @@ python main.py \
 
 python fuse.py
 
-# rm -rf ../TMP
-"""
+# rm -rf ../TMP # uncomment it to delete '../TMP' folder
