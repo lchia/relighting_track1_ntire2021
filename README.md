@@ -20,14 +20,14 @@ ln -s ../data/results .
 ln -s ../data/data .
 ln -s ../data/TMP .
 ```
-- data Structure
-```python
-../data/
- |--ckpts: model checkpoints
- |--data: test data of track1
- |--results: final results of track1
- |--TMP: temp directory
-```
+  - data Structure
+  ```python
+  ../data/
+    |--ckpts: model checkpoints
+    |--data: test data of track1
+    |--results: final results of track1
+    |--TMP: temp directory
+  ```
 
 - [3] Run test script
 ```python
@@ -35,7 +35,7 @@ cd ./code
 sh run_test.sh
 ```
 
-- *TEST* results lies in folder: `../results`
+- *TEST* results lies in folder: `../data/results`
 
 and can download from [results.zip](https://drive.google.com/file/d/1Q2H95cTqtCKxi7L1SmA3NTTYjqP5tEgr/view?usp=sharing)
 
