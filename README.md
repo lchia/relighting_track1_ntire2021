@@ -32,6 +32,7 @@ sh run_test.sh
 and can download from [results.zip](https://drive.google.com/file/d/1Q2H95cTqtCKxi7L1SmA3NTTYjqP5tEgr/view?usp=sharing)
 
 ## Structure
+```python
 --relighting2021
  |--README.md 
  |--requirements.txt
@@ -44,3 +45,4 @@ and can download from [results.zip](https://drive.google.com/file/d/1Q2H95cTqtCK
     |--fuse.py: test fusion
     |--main.py
     |--others
+```
