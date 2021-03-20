@@ -20,6 +20,14 @@ ln -s ../data/results .
 ln -s ../data/data .
 ln -s ../data/TMP .
 ```
+- data Structure
+```python
+../data/
+ |--ckpts: model checkpoints
+ |--data: test data of track1
+ |--results: final results of track1
+ |--TMP: temp directory
+```
 
 - [3] Run test script
 ```python
@@ -31,9 +39,9 @@ sh run_test.sh
 
 and can download from [results.zip](https://drive.google.com/file/d/1Q2H95cTqtCKxi7L1SmA3NTTYjqP5tEgr/view?usp=sharing)
 
-## Structure
+## Code Structure
 ```python
---relighting2021
+--relighting_track1_ntire2021
  |--README.md 
  |--requirements.txt
  |--ckpts: model checkpoints
@@ -46,3 +54,4 @@ and can download from [results.zip](https://drive.google.com/file/d/1Q2H95cTqtCK
     |--main.py
     |--others
 ```
+
